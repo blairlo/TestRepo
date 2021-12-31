@@ -1,0 +1,20 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+
+```{r}
+invlogit<- function(coef) {
+  1/(1+exp(-coef))
+} #inverse logit as for probability of point given the model
+
+w1= -1
+w2 = -1
+b= 0
+x1= 0
+x2= 0
+
+prob1<-invlogit(b + (w1*x1)+(w2*x2))
+prob1
+```
+
