@@ -1,5 +1,5 @@
 # RepoR
-AnalysisTest
+A repo for testing various Git strategies
 
 #This was written in Studio
 
